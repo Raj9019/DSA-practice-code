@@ -19,10 +19,10 @@ class reversearray{
       }
       void swapping(){
         i=1;j=n;
-        while(i==j){
+        while(i<j){
             swap(a[i], a[j]);
-            i++;
-            j--;
+            i=i+1;
+            j=j-1;
         }
       }
       void show(){
